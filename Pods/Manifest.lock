@@ -23,19 +23,25 @@ PODS:
   - AsyncDisplayKit (1.0.1):
     - AsyncDisplayKit/ASDealloc2MainObject
   - AsyncDisplayKit/ASDealloc2MainObject (1.0.1)
+  - KVOController (1.0.3)
   - MSDynamicsDrawerViewController (1.5.1)
   - pop (1.0.7)
+  - RZTransitions (1.1.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - AsyncDisplayKit
+  - KVOController
   - MSDynamicsDrawerViewController
   - pop (~> 1.0)
+  - RZTransitions (~> 1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
   AsyncDisplayKit: 1bbf78b78795370cc191b15ad7755683c32cc927
+  KVOController: b1139ef1fc373b6757e4b69493fedd7b56eb1272
   MSDynamicsDrawerViewController: 0002059480a4b5ddde7eafbafb958a79a9b0ffaf
   pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  RZTransitions: c9a185e49e67f699b04433c755e9962f9405141c
 
 COCOAPODS: 0.34.4

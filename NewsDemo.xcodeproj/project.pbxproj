@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F0B955B1A238DC40090EECE /* DVSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B955A1A238DC40090EECE /* DVSwitch.m */; };
+		3F0CF4711A28CAD700025DD6 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CF46E1A28CAD700025DD6 /* FBShimmeringLayer.m */; };
+		3F0CF4721A28CAD700025DD6 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CF4701A28CAD700025DD6 /* FBShimmeringView.m */; };
 		3F1FEE031A18F58A00C7FE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1FEE021A18F58A00C7FE2A /* main.m */; };
 		3F1FEE061A18F58A00C7FE2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1FEE051A18F58A00C7FE2A /* AppDelegate.m */; };
 		3F1FEE091A18F58A00C7FE2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1FEE081A18F58A00C7FE2A /* ViewController.m */; };
@@ -43,6 +45,12 @@
 /* Begin PBXFileReference section */
 		3F0B95591A238DC40090EECE /* DVSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSwitch.h; sourceTree = "<group>"; };
 		3F0B955A1A238DC40090EECE /* DVSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSwitch.m; sourceTree = "<group>"; };
+		3F0CF46B1A28CAD700025DD6 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		3F0CF46C1A28CAD700025DD6 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		3F0CF46D1A28CAD700025DD6 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		3F0CF46E1A28CAD700025DD6 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		3F0CF46F1A28CAD700025DD6 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		3F0CF4701A28CAD700025DD6 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 		3F1FEDFD1A18F58A00C7FE2A /* NewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1FEE011A18F58A00C7FE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1FEE021A18F58A00C7FE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,6 +124,19 @@
 			path = DVSwitch;
 			sourceTree = "<group>";
 		};
+		3F0CF46A1A28CAD700025DD6 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CF46B1A28CAD700025DD6 /* FBShimmering-Prefix.pch */,
+				3F0CF46C1A28CAD700025DD6 /* FBShimmering.h */,
+				3F0CF46D1A28CAD700025DD6 /* FBShimmeringLayer.h */,
+				3F0CF46E1A28CAD700025DD6 /* FBShimmeringLayer.m */,
+				3F0CF46F1A28CAD700025DD6 /* FBShimmeringView.h */,
+				3F0CF4701A28CAD700025DD6 /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
+			sourceTree = "<group>";
+		};
 		3F1FEDF41A18F58A00C7FE2A = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +203,7 @@
 		3FA136291A1E3E6E00475415 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3F0CF46A1A28CAD700025DD6 /* FBShimmering */,
 				3FE4F1BD1A24D93500A10B8D /* RSDotsView */,
 				3F0B95581A238DC40090EECE /* DVSwitch */,
 				3FA1362A1A1E3E6E00475415 /* FBTweak */,
@@ -389,6 +411,8 @@
 				3FA136451A1E3E6E00475415 /* _FBTweakCategoryViewController.m in Sources */,
 				3FE4F1BF1A24D93500A10B8D /* RSDotsView.swift in Sources */,
 				3F1FEE091A18F58A00C7FE2A /* ViewController.m in Sources */,
+				3F0CF4721A28CAD700025DD6 /* FBShimmeringView.m in Sources */,
+				3F0CF4711A28CAD700025DD6 /* FBShimmeringLayer.m in Sources */,
 				3FA1364D1A1E3E6E00475415 /* FBTweakStore.m in Sources */,
 				3FA136441A1E3E6E00475415 /* _FBTweakBindObserver.m in Sources */,
 				3F0B955B1A238DC40090EECE /* DVSwitch.m in Sources */,

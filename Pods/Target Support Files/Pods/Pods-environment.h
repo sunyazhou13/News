@@ -60,11 +60,23 @@
 #define COCOAPODS_VERSION_MINOR_AsyncDisplayKit_ASDealloc2MainObject 0
 #define COCOAPODS_VERSION_PATCH_AsyncDisplayKit_ASDealloc2MainObject 1
 
+// KVOController
+#define COCOAPODS_POD_AVAILABLE_KVOController
+#define COCOAPODS_VERSION_MAJOR_KVOController 1
+#define COCOAPODS_VERSION_MINOR_KVOController 0
+#define COCOAPODS_VERSION_PATCH_KVOController 3
+
 // MSDynamicsDrawerViewController
 #define COCOAPODS_POD_AVAILABLE_MSDynamicsDrawerViewController
 #define COCOAPODS_VERSION_MAJOR_MSDynamicsDrawerViewController 1
 #define COCOAPODS_VERSION_MINOR_MSDynamicsDrawerViewController 5
 #define COCOAPODS_VERSION_PATCH_MSDynamicsDrawerViewController 1
+
+// RZTransitions
+#define COCOAPODS_POD_AVAILABLE_RZTransitions
+#define COCOAPODS_VERSION_MAJOR_RZTransitions 1
+#define COCOAPODS_VERSION_MINOR_RZTransitions 1
+#define COCOAPODS_VERSION_PATCH_RZTransitions 1
 
 // pop
 #define COCOAPODS_POD_AVAILABLE_pop

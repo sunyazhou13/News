@@ -151,12 +151,6 @@
     }];
     
     
-    RSDotsView *rsView = [[RSDotsView alloc] initWithFrame:CGRectMake(0, 0, self.switcher.frame.size.width, self.switcher.frame.size.height)];
-    rsView.backgroundColor = [UIColor clearColor];
-    rsView.dotsColor = [UIColor blackColor];
-    //    rsView.center = self.switcher.center;
-    [self.switcher addSubview:rsView];
-    [rsView startAnimating];
     self.sliderView                 = [[UIView alloc] init];
     self.sliderView.backgroundColor = self.sliderColor;
     self.sliderView.clipsToBounds   = YES;
