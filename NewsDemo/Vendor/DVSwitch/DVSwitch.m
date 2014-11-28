@@ -7,6 +7,7 @@
 //
 
 #import "DVSwitch.h"
+#import "newsDemo-swift.h"
 
 @interface DVSwitch ()
 
@@ -72,6 +73,7 @@
         label.font = self.font;
         label.adjustsFontSizeToFitWidth = YES;
         label.adjustsLetterSpacingToFitWidth = YES;
+        label.attributedText = [NSAttributedString alloc]
         label.textAlignment = NSTextAlignmentCenter;
         label.textColor = self.labelTextColorOutsideSlider;
         [self.backgroundView addSubview:label];
@@ -148,6 +150,13 @@
         label.userInteractionEnabled = YES;
     }];
     
+    
+    RSDotsView *rsView = [[RSDotsView alloc] initWithFrame:CGRectMake(0, 0, self.switcher.frame.size.width, self.switcher.frame.size.height)];
+    rsView.backgroundColor = [UIColor clearColor];
+    rsView.dotsColor = [UIColor blackColor];
+    //    rsView.center = self.switcher.center;
+    [self.switcher addSubview:rsView];
+    [rsView startAnimating];
     self.sliderView                 = [[UIView alloc] init];
     self.sliderView.backgroundColor = self.sliderColor;
     self.sliderView.clipsToBounds   = YES;

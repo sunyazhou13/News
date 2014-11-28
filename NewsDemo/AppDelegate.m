@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FBTweakShakeWindow.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
     return YES;
 }
 
@@ -41,5 +44,18 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+/*!
+ *  复写window
+ */
+- (FBTweakShakeWindow *)window {
+    static FBTweakShakeWindow *tweakWindow = nil;
+    if (!tweakWindow) {
+        tweakWindow = [[FBTweakShakeWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        NSLog(@"初始化window");
+    }
+    return tweakWindow;
+}
+
 
 @end
