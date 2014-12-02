@@ -27,6 +27,7 @@ PODS:
   - MSDynamicsDrawerViewController (1.5.1)
   - pop (1.0.7)
   - RZTransitions (1.1.1)
+  - UICKeyChainStore (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - MSDynamicsDrawerViewController
   - pop (~> 1.0)
   - RZTransitions (~> 1.0)
+  - UICKeyChainStore
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
@@ -43,5 +45,6 @@ SPEC CHECKSUMS:
   MSDynamicsDrawerViewController: 0002059480a4b5ddde7eafbafb958a79a9b0ffaf
   pop: 2f14a1ea61339767af9e66741b418c831b3844df
   RZTransitions: c9a185e49e67f699b04433c755e9962f9405141c
+  UICKeyChainStore: 257d869d42527b9853ebb11d6dc3ac377b270e72
 
 COCOAPODS: 0.34.4

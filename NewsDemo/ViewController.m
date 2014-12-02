@@ -12,12 +12,11 @@
 #import "FBTweakShakeWindow.h"
 #import "FBTweakInline.h"
 #import "FBTweakViewController.h"
-#import "DVSwitch.h"
+
 #import "newsDemo-swift.h"
 
 
 @interface ViewController ()
-@property (strong, nonatomic) DVSwitch *switcher;
 @end
 
 @implementation ViewController
@@ -35,28 +34,6 @@
     
     animationDurationTweak.precisionValue = [NSNumber numberWithFloat:1.0f];
     
-    if (self.switcher == nil) {
-        self.switcher = [[DVSwitch alloc] initWithStringsArray:@[@"", @""]];
-        self.switcher.frame = CGRectMake(50, 200, 240, 120);
-        self.switcher.cornerRadius = 60;        
-    }
-    self.switcher.backgroundColor = [UIColor greenColor];
-    self.switcher.sliderColor = [UIColor whiteColor];
-    self.switcher.sliderOffset = 1;
-    [self.view addSubview:self.switcher];\
-    __weak __typeof(self) weakSelf = self;
-    
-    [self.switcher setPressedHandler:^(NSUInteger index) {
-        __strong __typeof(weakSelf) strongSelf = weakSelf;
-        if (index == 1) {
-            strongSelf.switcher.backgroundColor = [UIColor blackColor];
-        }else {
-            strongSelf.switcher.backgroundColor = [UIColor greenColor];
-        }
-        
-        NSLog(@"Did press position on first switch at index: %lu", (unsigned long)index);
-        
-    }];
    
 }
 

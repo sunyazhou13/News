@@ -90,7 +90,7 @@
                             </constraint>
                             <constraint firstItem="VdJ-Zw-AOd" firstAttribute="centerX" secondItem="Jnc-Dw-WHh" secondAttribute="centerX" id="KwG-hq-Q9E"/>
                             <constraint firstItem="Jnc-Dw-WHh" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="80" id="MEk-Sc-7fB">
-                                <variation key="widthClass=compact" constant="0.0"/>
+                                <variation key="widthClass=compact" constant="100"/>
                             </constraint>
                             <constraint firstAttribute="trailing" secondItem="Jnc-Dw-WHh" secondAttribute="trailing" constant="179" id="OBb-yv-jLL">
                                 <variation key="widthClass=compact" constant="95"/>
@@ -103,13 +103,13 @@
                             </constraint>
                             <constraint firstItem="Jnc-Dw-WHh" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="153" id="URh-e4-Je6"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Jnc-Dw-WHh" secondAttribute="bottom" constant="300" id="UoM-vI-2Ny">
-                                <variation key="widthClass=compact" constant="314"/>
+                                <variation key="widthClass=compact" constant="336"/>
                             </constraint>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Jnc-Dw-WHh" secondAttribute="bottom" constant="406" id="emb-vk-vdR">
                                 <variation key="widthClass=compact" constant="300"/>
                             </constraint>
                             <constraint firstItem="Jnc-Dw-WHh" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="80" id="pWY-vF-0pG">
-                                <variation key="widthClass=compact" constant="0.0"/>
+                                <variation key="widthClass=compact" constant="100"/>
                             </constraint>
                             <constraint firstAttribute="trailing" secondItem="Jnc-Dw-WHh" secondAttribute="trailing" constant="50" id="sXD-A0-I7C">
                                 <variation key="widthClass=compact" constant="0.0"/>

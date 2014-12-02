@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0B955B1A238DC40090EECE /* DVSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B955A1A238DC40090EECE /* DVSwitch.m */; };
 		3F0CF4711A28CAD700025DD6 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CF46E1A28CAD700025DD6 /* FBShimmeringLayer.m */; };
 		3F0CF4721A28CAD700025DD6 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CF4701A28CAD700025DD6 /* FBShimmeringView.m */; };
 		3F1FEE031A18F58A00C7FE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1FEE021A18F58A00C7FE2A /* main.m */; };
@@ -28,7 +27,6 @@
 		3FA1364C1A1E3E6E00475415 /* FBTweakShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1363F1A1E3E6E00475415 /* FBTweakShakeWindow.m */; };
 		3FA1364D1A1E3E6E00475415 /* FBTweakStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA136411A1E3E6E00475415 /* FBTweakStore.m */; };
 		3FA1364E1A1E3E6E00475415 /* FBTweakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA136431A1E3E6E00475415 /* FBTweakViewController.m */; };
-		3FE4F1BF1A24D93500A10B8D /* RSDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4F1BE1A24D93500A10B8D /* RSDotsView.swift */; };
 		DEC372DD524C292D7DB4EAB7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE968C69E775BC5D55EF3471 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F0B95591A238DC40090EECE /* DVSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSwitch.h; sourceTree = "<group>"; };
-		3F0B955A1A238DC40090EECE /* DVSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSwitch.m; sourceTree = "<group>"; };
 		3F0CF46B1A28CAD700025DD6 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
 		3F0CF46C1A28CAD700025DD6 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
 		3F0CF46D1A28CAD700025DD6 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
@@ -90,7 +86,6 @@
 		3FA136411A1E3E6E00475415 /* FBTweakStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakStore.m; sourceTree = "<group>"; };
 		3FA136421A1E3E6E00475415 /* FBTweakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakViewController.h; sourceTree = "<group>"; };
 		3FA136431A1E3E6E00475415 /* FBTweakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakViewController.m; sourceTree = "<group>"; };
-		3FE4F1BE1A24D93500A10B8D /* RSDotsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSDotsView.swift; sourceTree = "<group>"; };
 		6D733D7931EC9707DAF79217 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DE968C69E775BC5D55EF3471 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7DE7E56BFA8253257440A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,15 +110,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F0B95581A238DC40090EECE /* DVSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				3F0B95591A238DC40090EECE /* DVSwitch.h */,
-				3F0B955A1A238DC40090EECE /* DVSwitch.m */,
-			);
-			path = DVSwitch;
-			sourceTree = "<group>";
-		};
 		3F0CF46A1A28CAD700025DD6 /* FBShimmering */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +126,6 @@
 		3F1FEDF41A18F58A00C7FE2A = {
 			isa = PBXGroup;
 			children = (
-				3FA136291A1E3E6E00475415 /* Vendor */,
 				3F1FEDFF1A18F58A00C7FE2A /* NewsDemo */,
 				3F1FEE191A18F58A00C7FE2A /* NewsDemoTests */,
 				3F1FEDFE1A18F58A00C7FE2A /* Products */,
@@ -168,6 +153,7 @@
 				3F1FEE0A1A18F58A00C7FE2A /* Main.storyboard */,
 				3F1FEE0D1A18F58A00C7FE2A /* Images.xcassets */,
 				3F1FEE0F1A18F58A00C7FE2A /* LaunchScreen.xib */,
+				3FA136291A1E3E6E00475415 /* OpenSource */,
 				3F1FEE001A18F58A00C7FE2A /* Supporting Files */,
 				3F1FEE261A18F59F00C7FE2A /* NewsDemo-Bridging-Header.h */,
 			);
@@ -200,16 +186,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3FA136291A1E3E6E00475415 /* Vendor */ = {
+		3FA136291A1E3E6E00475415 /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
 				3F0CF46A1A28CAD700025DD6 /* FBShimmering */,
-				3FE4F1BD1A24D93500A10B8D /* RSDotsView */,
-				3F0B95581A238DC40090EECE /* DVSwitch */,
 				3FA1362A1A1E3E6E00475415 /* FBTweak */,
 			);
-			name = Vendor;
-			path = NewsDemo/Vendor;
+			name = OpenSource;
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 		3FA1362A1A1E3E6E00475415 /* FBTweak */ = {
@@ -242,14 +226,6 @@
 				3FA136431A1E3E6E00475415 /* FBTweakViewController.m */,
 			);
 			path = FBTweak;
-			sourceTree = "<group>";
-		};
-		3FE4F1BD1A24D93500A10B8D /* RSDotsView */ = {
-			isa = PBXGroup;
-			children = (
-				3FE4F1BE1A24D93500A10B8D /* RSDotsView.swift */,
-			);
-			path = RSDotsView;
 			sourceTree = "<group>";
 		};
 		661267236C831BFFB70DD6FC /* Frameworks */ = {
@@ -409,13 +385,11 @@
 				3FA136471A1E3E6E00475415 /* _FBTweakTableViewCell.m in Sources */,
 				3FA136461A1E3E6E00475415 /* _FBTweakCollectionViewController.m in Sources */,
 				3FA136451A1E3E6E00475415 /* _FBTweakCategoryViewController.m in Sources */,
-				3FE4F1BF1A24D93500A10B8D /* RSDotsView.swift in Sources */,
 				3F1FEE091A18F58A00C7FE2A /* ViewController.m in Sources */,
 				3F0CF4721A28CAD700025DD6 /* FBShimmeringView.m in Sources */,
 				3F0CF4711A28CAD700025DD6 /* FBShimmeringLayer.m in Sources */,
 				3FA1364D1A1E3E6E00475415 /* FBTweakStore.m in Sources */,
 				3FA136441A1E3E6E00475415 /* _FBTweakBindObserver.m in Sources */,
-				3F0B955B1A238DC40090EECE /* DVSwitch.m in Sources */,
 				3FA1364C1A1E3E6E00475415 /* FBTweakShakeWindow.m in Sources */,
 				3FA136491A1E3E6E00475415 /* FBTweakCategory.m in Sources */,
 				3F1FEE061A18F58A00C7FE2A /* AppDelegate.m in Sources */,
@@ -544,6 +518,7 @@
 			baseConfigurationReference = 6D733D7931EC9707DAF79217 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Li (46V2S6FN6S)";
 				INFOPLIST_FILE = NewsDemo/Info.plist;
@@ -561,6 +536,7 @@
 			baseConfigurationReference = EE7DE7E56BFA8253257440A6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Li (46V2S6FN6S)";
 				INFOPLIST_FILE = NewsDemo/Info.plist;

@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-UICKeyChainStore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -41,6 +46,47 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>1394EC5EC4AF8EEDE0173A7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E1CA0E2033F808D85748082</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41EC3EA1DDBC5B91AC0D3661</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>815CC671746565E00784E537</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9FB7BFCC37FD6E6EA2AEBA0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8FC7F868DF2FDA6769D88CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA3B065C478B930A6EB06324</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBE91FFB459ACD9789354CBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
