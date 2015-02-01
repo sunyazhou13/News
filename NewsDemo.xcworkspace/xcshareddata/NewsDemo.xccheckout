@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3729F7EE-038A-406B-B3C1-107C3893E027</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NewsDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AA6F17A3B1C07314B1AAA3D9716A7564B351C9CA</key>
+		<string>https://github.com/sunyazhou13/News.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NewsDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AA6F17A3B1C07314B1AAA3D9716A7564B351C9CA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sunyazhou13/News.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA6F17A3B1C07314B1AAA3D9716A7564B351C9CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA6F17A3B1C07314B1AAA3D9716A7564B351C9CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NewsDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
