@@ -13,7 +13,6 @@
 #import "FBTweakInline.h"
 #import "FBTweakViewController.h"
 
-#import "newsDemo-swift.h"
 
 
 @interface ViewController ()
@@ -29,7 +28,7 @@
     animationDurationTweak.stepValue = [NSNumber numberWithFloat:0.1f];
     animationDurationTweak.precisionValue = [NSNumber numberWithFloat:3.0f];
     
-    FBTweak *animationToValueTweak = FBTweakInline(@"Content", @"Animation", @"ToValue",10240,1000,10000);
+    FBTweak *animationToValueTweak = FBTweakInline(@"Content", @"Animation", @"ToValue",1024000,1000,10000);
     animationToValueTweak.stepValue = @(1000);
     
     animationDurationTweak.precisionValue = [NSNumber numberWithFloat:1.0f];

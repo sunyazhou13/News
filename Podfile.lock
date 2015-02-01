@@ -20,31 +20,45 @@ PODS:
   - AFNetworking/UIKit (2.5.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - AsyncDisplayKit (1.0.1):
+  - AsyncDisplayKit (1.1.1):
     - AsyncDisplayKit/ASDealloc2MainObject
-  - AsyncDisplayKit/ASDealloc2MainObject (1.0.1)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.1.1)
+  - GPUImage (0.1.6)
   - KVOController (1.0.3)
-  - MSDynamicsDrawerViewController (1.5.1)
   - pop (1.0.7)
+  - RESideMenu (4.0.7)
   - RZTransitions (1.1.1)
-  - UICKeyChainStore (1.1.0)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - Shimmer (1.0.2)
+  - Tweaks (1.1.0)
+  - UICKeyChainStore (2.0.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - AsyncDisplayKit
+  - GPUImage
   - KVOController
-  - MSDynamicsDrawerViewController
   - pop (~> 1.0)
+  - RESideMenu (~> 4.0.7)
   - RZTransitions (~> 1.0)
+  - SDWebImage (~> 3.6)
+  - Shimmer
+  - Tweaks
   - UICKeyChainStore
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
-  AsyncDisplayKit: 1bbf78b78795370cc191b15ad7755683c32cc927
+  AsyncDisplayKit: 897b28140c6c73fbe8d6168f19ce7cbd87c94ee8
+  GPUImage: cecb0830bb9428f50192042e3c7b53810f51388e
   KVOController: b1139ef1fc373b6757e4b69493fedd7b56eb1272
-  MSDynamicsDrawerViewController: 0002059480a4b5ddde7eafbafb958a79a9b0ffaf
   pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  RESideMenu: a9c1cd2e64e60e1d3166ddac01a83e215a0e4d30
   RZTransitions: c9a185e49e67f699b04433c755e9962f9405141c
-  UICKeyChainStore: 257d869d42527b9853ebb11d6dc3ac377b270e72
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  Shimmer: 057fcfe9c1c978d69d50b64fce93a61080cd08ec
+  Tweaks: 05b197d4a1247288f576587546bc1932189d8c98
+  UICKeyChainStore: 14bf8cb308432c2ca7c1b8b600398d4d6af8cb8d
 
 COCOAPODS: 0.34.4

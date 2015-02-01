@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "815CC671746565E00784E537"
+               BlueprintIdentifier = "5D98A02967D6AEBDAEE45331"
                BuildableName = "libPods-AsyncDisplayKit.a"
                BlueprintName = "Pods-AsyncDisplayKit"
                ReferencedContainer = "container:Pods.xcodeproj">

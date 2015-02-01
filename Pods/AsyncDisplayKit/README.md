@@ -21,8 +21,8 @@ pod 'AsyncDisplayKit'
 
 (ASDK can also be used as a regular static library:  Copy the project to your
 codebase manually, adding `AsyncDisplayKit.xcodeproj` to your workspace.  Add
-`libAsyncDisplayKit.a` to the "Link Binary With Libraries" build phase.
-Include `-lc++ -ObjC` in your project linker flags.)
+`libAsyncDisplayKit.a`, AssetsLibrary, and Photos to the "Link Binary With
+Libraries" build phase.  Include `-lc++ -ObjC` in your project linker flags.)
 
 Import the framework header, or create an [Objective-C bridging
 header](https://developer.apple.com/library/ios/documentation/swift/conceptual/buildingcocoaapps/MixandMatch.html)
@@ -56,12 +56,23 @@ dispatch_async(_backgroundQueue, ^{
 });
 ```
 
-You can use `ASImageNode` and `ASTextNode` as drop-in replacements for
-UIImageView and UITextView, or [create your own
+AsyncDisplayKit at a glance:
+
+* `ASImageNode` and `ASTextNode` are drop-in replacements for UIImageView and
+  UITextView.
+* `ASMultiplexImageNode` can load and display progressively higher-quality
+  variants of an image over a slow cell network, letting you quickly show a
+  low-resolution photo while the full size downloads.
+* `ASNetworkImageNode` is a simpler, single-image counterpart to the Multiplex
+  node.
+* `ASTableView` and `ASCollectionView` are a node-aware UITableView and
+  UICollectionView, respectively, that can asynchronously preload cell nodes
+  &mdash; from loading network data to rendering &mdash; all without blocking
+  the main thread.
+
+You can also easily [create your own
 nodes](https://github.com/facebook/AsyncDisplayKit/blob/master/AsyncDisplayKit/ASDisplayNode%2BSubclasses.h)
-to implement node hierarchies or custom drawing.  `ASTableView` is a node-aware
-UITableView subclass that can asynchronously preload cell nodes without
-blocking the main thread.
+to implement node hierarchies or custom drawing.
 
 ### Learn more
 

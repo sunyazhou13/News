@@ -51,14 +51,20 @@
 // AsyncDisplayKit
 #define COCOAPODS_POD_AVAILABLE_AsyncDisplayKit
 #define COCOAPODS_VERSION_MAJOR_AsyncDisplayKit 1
-#define COCOAPODS_VERSION_MINOR_AsyncDisplayKit 0
+#define COCOAPODS_VERSION_MINOR_AsyncDisplayKit 1
 #define COCOAPODS_VERSION_PATCH_AsyncDisplayKit 1
 
 // AsyncDisplayKit/ASDealloc2MainObject
 #define COCOAPODS_POD_AVAILABLE_AsyncDisplayKit_ASDealloc2MainObject
 #define COCOAPODS_VERSION_MAJOR_AsyncDisplayKit_ASDealloc2MainObject 1
-#define COCOAPODS_VERSION_MINOR_AsyncDisplayKit_ASDealloc2MainObject 0
+#define COCOAPODS_VERSION_MINOR_AsyncDisplayKit_ASDealloc2MainObject 1
 #define COCOAPODS_VERSION_PATCH_AsyncDisplayKit_ASDealloc2MainObject 1
+
+// GPUImage
+#define COCOAPODS_POD_AVAILABLE_GPUImage
+#define COCOAPODS_VERSION_MAJOR_GPUImage 0
+#define COCOAPODS_VERSION_MINOR_GPUImage 1
+#define COCOAPODS_VERSION_PATCH_GPUImage 6
 
 // KVOController
 #define COCOAPODS_POD_AVAILABLE_KVOController
@@ -66,11 +72,11 @@
 #define COCOAPODS_VERSION_MINOR_KVOController 0
 #define COCOAPODS_VERSION_PATCH_KVOController 3
 
-// MSDynamicsDrawerViewController
-#define COCOAPODS_POD_AVAILABLE_MSDynamicsDrawerViewController
-#define COCOAPODS_VERSION_MAJOR_MSDynamicsDrawerViewController 1
-#define COCOAPODS_VERSION_MINOR_MSDynamicsDrawerViewController 5
-#define COCOAPODS_VERSION_PATCH_MSDynamicsDrawerViewController 1
+// RESideMenu
+#define COCOAPODS_POD_AVAILABLE_RESideMenu
+#define COCOAPODS_VERSION_MAJOR_RESideMenu 4
+#define COCOAPODS_VERSION_MINOR_RESideMenu 0
+#define COCOAPODS_VERSION_PATCH_RESideMenu 7
 
 // RZTransitions
 #define COCOAPODS_POD_AVAILABLE_RZTransitions
@@ -78,11 +84,35 @@
 #define COCOAPODS_VERSION_MINOR_RZTransitions 1
 #define COCOAPODS_VERSION_PATCH_RZTransitions 1
 
+// SDWebImage
+#define COCOAPODS_POD_AVAILABLE_SDWebImage
+#define COCOAPODS_VERSION_MAJOR_SDWebImage 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage 7
+#define COCOAPODS_VERSION_PATCH_SDWebImage 1
+
+// SDWebImage/Core
+#define COCOAPODS_POD_AVAILABLE_SDWebImage_Core
+#define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
+#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 1
+
+// Shimmer
+#define COCOAPODS_POD_AVAILABLE_Shimmer
+#define COCOAPODS_VERSION_MAJOR_Shimmer 1
+#define COCOAPODS_VERSION_MINOR_Shimmer 0
+#define COCOAPODS_VERSION_PATCH_Shimmer 2
+
+// Tweaks
+#define COCOAPODS_POD_AVAILABLE_Tweaks
+#define COCOAPODS_VERSION_MAJOR_Tweaks 1
+#define COCOAPODS_VERSION_MINOR_Tweaks 1
+#define COCOAPODS_VERSION_PATCH_Tweaks 0
+
 // UICKeyChainStore
 #define COCOAPODS_POD_AVAILABLE_UICKeyChainStore
-#define COCOAPODS_VERSION_MAJOR_UICKeyChainStore 1
-#define COCOAPODS_VERSION_MINOR_UICKeyChainStore 1
-#define COCOAPODS_VERSION_PATCH_UICKeyChainStore 0
+#define COCOAPODS_VERSION_MAJOR_UICKeyChainStore 2
+#define COCOAPODS_VERSION_MINOR_UICKeyChainStore 0
+#define COCOAPODS_VERSION_PATCH_UICKeyChainStore 2
 
 // pop
 #define COCOAPODS_POD_AVAILABLE_pop
